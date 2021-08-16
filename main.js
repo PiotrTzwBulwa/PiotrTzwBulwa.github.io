@@ -77,6 +77,12 @@ const favColorBtn3 = document.querySelector('#fav-btn-3');
 const favColorBtn4 = document.querySelector('#fav-btn-4');
 const favColorBtn5 = document.querySelector('#fav-btn-5');
 
+const copyColorBtn1 = document.querySelector('#copy-color-btn-1');
+const copyColorBtn2 = document.querySelector('#copy-color-btn-2');
+const copyColorBtn3 = document.querySelector('#copy-color-btn-3');
+const copyColorBtn4 = document.querySelector('#copy-color-btn-4');
+const copyColorBtn5 = document.querySelector('#copy-color-btn-5');
+
 let idNumber = 0;
 
 
@@ -547,3 +553,30 @@ const deleteFavoriteColor = (e) => {
 };
 
 ulFavColor.addEventListener('click', deleteFavoriteColor);
+
+// COPY COLOR NAME, RGB, HEX
+const copyColor1 = () => {
+    console.log(colorName1.innerText, colorRgb1.innerText, colorHex1.innerText)
+}
+
+const copyColor2 = () => {
+    console.log(colorName2.innerText, colorRgb2.innerText, colorHex2.innerText)
+}
+
+const copyColor3 = () => {
+    console.log(colorName3.innerText, colorRgb3.innerText, colorHex3.innerText)
+}
+
+const copyColor4 = () => {
+    console.log(colorName4.innerText, colorRgb4.innerText, colorHex4.innerText)
+}
+
+const copyColor5 = () => {
+    console.log(colorName5.innerText, colorRgb5.innerText, colorHex5.innerText)
+}
+
+copyColorBtn1.addEventListener('click', copyColor1);
+copyColorBtn2.addEventListener('click', copyColor2);
+copyColorBtn3.addEventListener('click', copyColor3);
+copyColorBtn4.addEventListener('click', copyColor4);
+copyColorBtn5.addEventListener('click', copyColor5);
