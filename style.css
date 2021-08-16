@@ -64,7 +64,8 @@ li {
 
 #header-img .coolors-logo {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    padding-top: 15%;
 }
 
 #header-text {
